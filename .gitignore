@@ -1,6 +1,5 @@
 .terraform
 .terraform.lock.hcl
-backend.tf
 .DS_Store
 terraform.tfstate
 terraform.tfstate.backup
