@@ -1,0 +1,196 @@
+{
+    "candidates": [
+        "Manuel_Perez",
+        "Carolina_Gomez",
+        "Gustavo_Da_Silva"
+    ],
+    "cities": [
+        "Cochabamba",
+        "SantaCruz",
+        "LaPaz",
+        "Tarija",
+        "Sucre"
+    ],
+    "results": [
+        {
+            "booth": 1,
+            "city": "Cochabamba",
+            "votes": {
+                "Manuel_Perez": 21,
+                "Carolina_Gomez": 31,
+                "Gustavo_Da_Silva": 41
+            }
+        },
+        {
+            "booth": 2,
+            "city": "SantaCruz",
+            "votes": {
+                "Manuel_Perez": 32,
+                "Carolina_Gomez": 35,
+                "Gustavo_Da_Silva": 91
+            }
+        },
+        {
+            "booth": 3,
+            "city": "LaPaz",
+            "votes": {
+                "Manuel_Perez": 2,
+                "Carolina_Gomez": 35,
+                "Gustavo_Da_Silva": 11
+            }
+        },
+        {
+            "booth": 4,
+            "city": "LaPaz",
+            "votes": {
+                "Manuel_Perez": 42,
+                "Carolina_Gomez": 30,
+                "Gustavo_Da_Silva": 40
+            }
+        },
+        {
+            "booth": 5,
+            "city": "SantaCruz",
+            "votes": {
+                "Manuel_Perez": 54,
+                "Carolina_Gomez": 21,
+                "Gustavo_Da_Silva": 9
+            }
+        },
+        {
+            "booth": 6,
+            "city": "LaPaz",
+            "votes": {
+                "Manuel_Perez": 2,
+                "Carolina_Gomez": 5,
+                "Gustavo_Da_Silva": 11
+            }
+        },
+        {
+            "booth": 7,
+            "city": "Cochabamba",
+            "votes": {
+                "Manuel_Perez": 22,
+                "Carolina_Gomez": 65,
+                "Gustavo_Da_Silva": 11
+            }
+        },
+        {
+            "booth": 8,
+            "city": "Tarija",
+            "votes": {
+                "Manuel_Perez": 51,
+                "Carolina_Gomez": 121,
+                "Gustavo_Da_Silva": 33
+            }
+        },
+        {
+            "booth": 9,
+            "city": "LaPaz",
+            "votes": {
+                "Manuel_Perez": 90,
+                "Carolina_Gomez": 33,
+                "Gustavo_Da_Silva": 11
+            }
+        },
+        {
+            "booth": 10,
+            "city": "Sucre",
+            "votes": {
+                "Manuel_Perez": 69,
+                "Carolina_Gomez": 26,
+                "Gustavo_Da_Silva": 85
+            }
+        },
+        {
+            "booth": 11,
+            "city": "La Paz",
+            "votes": {
+                "Manuel_Perez": 22,
+                "Carolina_Gomez": 92,
+                "Gustavo_Da_Silva": 54
+            }
+        },
+        {
+            "booth": 12,
+            "city": "Cochabamba",
+            "votes": {
+                "Manuel_Perez": 20,
+                "Carolina_Gomez": 9,
+                "Gustavo_Da_Silva": 11
+            }
+        },
+        {
+            "booth": 13,
+            "city": "LaPaz",
+            "votes": {
+                "Manuel_Perez": 21,
+                "Carolina_Gomez": 21,
+                "Gustavo_Da_Silva": 21
+            }
+        },
+        {
+            "booth": 14,
+            "city": "SantaCruz",
+            "votes": {
+                "Manuel_Perez": 54,
+                "Carolina_Gomez": 33,
+                "Gustavo_Da_Silva": 22
+            }
+        },
+        {
+            "booth": 15,
+            "city": "SantaCruz",
+            "votes": {
+                "Manuel_Perez": 11,
+                "Carolina_Gomez": 31,
+                "Gustavo_Da_Silva": 41
+            }
+        },
+        {
+            "booth": 16,
+            "city": "SantaCruz",
+            "votes": {
+                "Manuel_Perez": 17,
+                "Carolina_Gomez": 90,
+                "Gustavo_Da_Silva": 78
+            }
+        },
+        {
+            "booth": 17,
+            "city": "Tarija",
+            "votes": {
+                "Manuel_Perez": 21,
+                "Carolina_Gomez": 33,
+                "Gustavo_Da_Silva": 77
+            }
+        },
+        {
+            "booth": 18,
+            "city": "Cochabamba",
+            "votes": {
+                "Manuel_Perez": 78,
+                "Carolina_Gomez": 61,
+                "Gustavo_Da_Silva": 51
+            }
+        },
+        {
+            "booth": 19,
+            "city": "LaPaz",
+            "votes": {
+                "Manuel_Perez": 33,
+                "Carolina_Gomez": 35,
+                "Gustavo_Da_Silva": 45
+            }
+        },
+        {
+            "booth": 20,
+            "city": "Cochabamba",
+            "votes": {
+                "Manuel_Perez": 41,
+                "Carolina_Gomez": 80,
+                "Gustavo_Da_Silva": 21
+            }
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "candidates": [
+        "Rodrigo_Telleria",
+        "Vanessa_Torrez",
+        "Lina_Panozzo"
+    ],
+    "cities": [
+        "Cochabamba",
+        "SantaCruz",
+        "LaPaz",
+        "Tarija",
+        "Beni"
+    ],
+    "results": [
+        {
+            "booth": 1,
+            "city": "Cochabamba",
+            "votes": {
+                "Rodrigo_Telleria": 21,
+                "Vanessa_Torrez": 31,
+                "Lina_Panozzo": 41
+            }
+        },
+        {
+            "booth": 2,
+            "city": "SantaCruz",
+            "votes": {
+                "Rodrigo_Telleria": 41,
+                "Vanessa_Torrez": 34,
+                "Lina_Panozzo": 41
+            }
+        },
+        {
+            "booth": 3,
+            "city": "LaPaz",
+            "votes": {
+                "Rodrigo_Telleria": 11,
+                "Vanessa_Torrez": 38,
+                "Lina_Panozzo": 81
+            }
+        },
+        {
+            "booth": 4,
+            "city": "LaPaz",
+            "votes": {
+                "Rodrigo_Telleria": 61,
+                "Vanessa_Torrez": 34,
+                "Lina_Panozzo": 43
+            }
+        },
+        {
+            "booth": 5,
+            "city": "SantaCruz",
+            "votes": {
+                "Rodrigo_Telleria": 71,
+                "Vanessa_Torrez": 61,
+                "Lina_Panozzo": 45
+            }
+        },
+        {
+            "booth": 6,
+            "city": "LaPaz",
+            "votes": {
+                "Rodrigo_Telleria": 31,
+                "Vanessa_Torrez": 33,
+                "Lina_Panozzo": 49
+            }
+        },
+        {
+            "booth": 7,
+            "city": "Cochabamba",
+            "votes": {
+                "Rodrigo_Telleria": 51,
+                "Vanessa_Torrez": 31,
+                "Lina_Panozzo": 21
+            }
+        },
+        {
+            "booth": 8,
+            "city": "Tarija",
+            "votes": {
+                "Rodrigo_Telleria": 51,
+                "Vanessa_Torrez": 5,
+                "Lina_Panozzo": 45
+            }
+        },
+        {
+            "booth": 9,
+            "city": "LaPaz",
+            "votes": {
+                "Rodrigo_Telleria": 26,
+                "Vanessa_Torrez": 37,
+                "Lina_Panozzo": 48
+            }
+        },
+        {
+            "booth": 10,
+            "city": "Beni",
+            "votes": {
+                "Rodrigo_Telleria": 21,
+                "Vanessa_Torrez": 31,
+                "Lina_Panozzo": 41
+            }
+        },
+        {
+            "booth": 11,
+            "city": "La Paz",
+            "votes": {
+                "Rodrigo_Telleria": 21,
+                "Vanessa_Torrez": 32,
+                "Lina_Panozzo": 42
+            }
+        },
+        {
+            "booth": 12,
+            "city": "Cochabamba",
+            "votes": {
+                "Rodrigo_Telleria": 31,
+                "Vanessa_Torrez": 37,
+                "Lina_Panozzo": 40
+            }
+        },
+        {
+            "booth": 13,
+            "city": "LaPaz",
+            "votes": {
+                "Rodrigo_Telleria": 11,
+                "Vanessa_Torrez": 14,
+                "Lina_Panozzo": 13
+            }
+        },
+        {
+            "booth": 14,
+            "city": "SantaCruz",
+            "votes": {
+                "Rodrigo_Telleria": 29,
+                "Vanessa_Torrez": 44,
+                "Lina_Panozzo": 45
+            }
+        },
+        {
+            "booth": 15,
+            "city": "SantaCruz",
+            "votes": {
+                "Rodrigo_Telleria": 24,
+                "Vanessa_Torrez": 31,
+                "Lina_Panozzo": 61
+            }
+        },
+        {
+            "booth": 16,
+            "city": "SantaCruz",
+            "votes": {
+                "Rodrigo_Telleria": 23,
+                "Vanessa_Torrez": 35,
+                "Lina_Panozzo": 49
+            }
+        },
+        {
+            "booth": 17,
+            "city": "Tarija",
+            "votes": {
+                "Rodrigo_Telleria": 32,
+                "Vanessa_Torrez": 31,
+                "Lina_Panozzo": 41
+            }
+        },
+        {
+            "booth": 18,
+            "city": "Cochabamba",
+            "votes": {
+                "Rodrigo_Telleria": 25,
+                "Vanessa_Torrez": 33,
+                "Lina_Panozzo": 48
+            }
+        },
+        {
+            "booth": 19,
+            "city": "LaPaz",
+            "votes": {
+                "Rodrigo_Telleria": 22,
+                "Vanessa_Torrez": 66,
+                "Lina_Panozzo": 10
+            }
+        },
+        {
+            "booth": 20,
+            "city": "Cochabamba",
+            "votes": {
+                "Rodrigo_Telleria": 45,
+                "Vanessa_Torrez": 90,
+                "Lina_Panozzo": 11
+            }
+        },
+        {
+            "booth": 21,
+            "city": "Beni",
+            "votes": {
+                "Rodrigo_Telleria": 21,
+                "Vanessa_Torrez": 31,
+                "Lina_Panozzo": 41
+            }
+        },
+        {
+            "booth": 22,
+            "city": "Beni",
+            "votes": {
+                "Rodrigo_Telleria": 37,
+                "Vanessa_Torrez": 65,
+                "Lina_Panozzo": 44
+            }
+        }
+    ]
+}
