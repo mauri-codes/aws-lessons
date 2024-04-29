@@ -66,22 +66,22 @@ resource "aws_route_table_association" "private_association" {
   route_table_id = aws_route_table.private_rt.id
 }
 
-resource "aws_instance" "web" {
-  ami           = data.aws_ami.linux2023.id
-  instance_type = "t2.micro"
-  subnet_id     = aws_subnet.subnet["${local.subnet_prefix}-web-A"].id
+# resource "aws_instance" "web" {
+#   ami           = data.aws_ami.linux2023.id
+#   instance_type = "t2.micro"
+#   subnet_id     = aws_subnet.subnet["${local.subnet_prefix}-web-A"].id
 
-  tags = {
-    Name = "PrivateInstance"
-  }
-}
+#   tags = {
+#     Name = "PrivateInstance"
+#   }
+# }
 
-resource "aws_instance" "app" {
-  ami           = data.aws_ami.linux2023.id
-  instance_type = "t2.micro"
-  subnet_id     = aws_subnet.subnet["${local.subnet_prefix}-app-A"].id
+# resource "aws_instance" "app" {
+#   ami           = data.aws_ami.linux2023.id
+#   instance_type = "t2.micro"
+#   subnet_id     = aws_subnet.subnet["${local.subnet_prefix}-app-A"].id
 
-  tags = {
-    Name = "PublicInstance"
-  }
-}
+#   tags = {
+#     Name = "PublicInstance"
+#   }
+# }
