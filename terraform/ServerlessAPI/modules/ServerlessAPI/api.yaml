@@ -2,29 +2,61 @@ openapi: 3.1.0
 info:
   title: Example Serverless API for DynamoDB Access
 paths:
-  /user:
-    /get:
-      summary: Get user
-      x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${register_lambda_name}/invocations"
-        passthroughBehavior: "when_no_match"
-        httpMethod: "POST"
-        type: "aws_proxy"
-        contentHandling: "CONVERT_TO_TEXT"
-
+  /book:
     /put:
-      summary: Create new user
+      summary: Create new book
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${register_lambda_name}/invocations"
+        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${put_book_lambda}/invocations"
         passthroughBehavior: "when_no_match"
         httpMethod: "POST"
         type: "aws_proxy"
         contentHandling: "CONVERT_TO_TEXT"
 
-    /delete:
-      summary: Delete user
+  /person:
+    /put:
+      summary: Create new person
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${register_lambda_name}/invocations"
+        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${put_person_lambda}/invocations"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws_proxy"
+        contentHandling: "CONVERT_TO_TEXT"
+
+  /person/{personId}:
+    /get:
+      summary: Get all books for person
+      x-amazon-apigateway-integration:
+        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${person_books_lambda}/invocations"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws_proxy"
+        contentHandling: "CONVERT_TO_TEXT"
+
+  /person/{personId}/book/{bookId}:
+    /post:
+      summary: Borrow book for person
+      x-amazon-apigateway-integration:
+        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${borrow_book_lambda}/invocations"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws_proxy"
+        contentHandling: "CONVERT_TO_TEXT"
+
+  /person/{personId}/lib/{libId}:
+    /get:
+      summary: Get all books for person by library
+      x-amazon-apigateway-integration:
+        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${person_books_by_lib_lambda}/invocations"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws_proxy"
+        contentHandling: "CONVERT_TO_TEXT"
+
+  /books:
+    /get:
+      summary: Get all books
+      x-amazon-apigateway-integration:
+        uri: "arn:aws:apigateway:${aws_region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${aws_region}:${account_id}:function:${list_books_lambda}/invocations"
         passthroughBehavior: "when_no_match"
         httpMethod: "POST"
         type: "aws_proxy"

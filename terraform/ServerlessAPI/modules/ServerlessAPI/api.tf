@@ -29,9 +29,13 @@ resource "aws_api_gateway_rest_api" "api" {
 data "template_file" "api_definition" {
   template = file("api.yaml")
   vars = {
-    account_id = 
-    aws_region =
-    put_book = 
-    
+    account_id = local.account_id
+    aws_region = local.region
+    put_book_lambda = local.function_definition.PutBook.function_name
+    put_person_lambda = local.function_definition.PutPerson.function_name
+    borrow_book_lambda = local.function_definition.BorrowBook.function_name
+    person_books_lambda = local.function_definition.PersonBooks.function_name
+    person_books_by_lib_lambda = local.function_definition.PersonBooksByLib.function_name
+    list_books_lambda = local.function_definition.ListBooks.function_name
   }
 }
