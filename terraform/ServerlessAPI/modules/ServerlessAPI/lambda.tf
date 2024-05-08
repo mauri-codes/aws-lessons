@@ -1,29 +1,60 @@
-module "GetUser" {
+module "PutBook" {
   source = "../../../modules/lambda"
-  function_name = "GetUser"
-  handler = "api.getUser"
+  function_name = "PutBook"
+  handler = "api.PutBook"
   infra_bucket = "deployment-bucket-upb2024"
-  package_key_location = "lambda/apiGetUser.zip"
+  package_key_location = "lambda/api.zip"
   extra_policy_arns = []
   env_vars = {}
 }
 
-module "PutUser" {
+module "PutPerson" {
   source = "../../../modules/lambda"
-  function_name = "PutUser"
-  handler = "api.putUser"
+  function_name = "PutPerson"
+  handler = "api.PutPerson"
   infra_bucket = "deployment-bucket-upb2024"
-  package_key_location = "lambda/apiPutUser.zip"
+  package_key_location = "lambda/api.zip"
   extra_policy_arns = []
   env_vars = {}
 }
 
-module "DeleteUser" {
+module "BorrowBook" {
   source = "../../../modules/lambda"
-  function_name = "DeleteUser"
-  handler = "api.deleteUser"
+  function_name = "BorrowBook"
+  handler = "api.BorrowBook"
   infra_bucket = "deployment-bucket-upb2024"
-  package_key_location = "lambda/apiDeleteUser.zip"
+  package_key_location = "lambda/api.zip"
+  extra_policy_arns = []
+  env_vars = {}
+}
+
+module "PersonBooks" {
+  source = "../../../modules/lambda"
+  function_name = "PersonBooks"
+  handler = "api.PersonBooks"
+  infra_bucket = "deployment-bucket-upb2024"
+  package_key_location = "lambda/api.zip"
+  extra_policy_arns = []
+  env_vars = {}
+}
+
+module "PersonBooksByLib" {
+  source = "../../../modules/lambda"
+  function_name = "PersonBooksByLib"
+  handler = "api.PersonBooksByLib"
+  infra_bucket = "deployment-bucket-upb2024"
+  package_key_location = "lambda/api.zip"
+  extra_policy_arns = []
+  env_vars = {}
+}
+
+
+module "ListBooks" {
+  source = "../../../modules/lambda"
+  function_name = "ListBooks"
+  handler = "api.ListBooks"
+  infra_bucket = "deployment-bucket-upb2024"
+  package_key_location = "lambda/api.zip"
   extra_policy_arns = []
   env_vars = {}
 }

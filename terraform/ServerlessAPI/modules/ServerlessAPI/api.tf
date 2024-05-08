@@ -25,3 +25,13 @@ resource "aws_api_gateway_rest_api" "api" {
     types = ["REGIONAL"]
   }
 }
+
+data "template_file" "api_definition" {
+  template = file("api.yaml")
+  vars = {
+    account_id = 
+    aws_region =
+    put_book = 
+    
+  }
+}
